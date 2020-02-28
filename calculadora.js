@@ -118,14 +118,14 @@ function crearTabla(){
         ventana.document.write('<body bgcolor="black">');
         ventana.document.write('<style>');
         ventana.document.write('*{font-family: "arial";}');
-        ventana.document.write('table, th, td {border: 1px solid black;width:100px;color="white;"}');
+        ventana.document.write('table, th, td {border: 1px solid white;width:100px;color="white;"}');
         ventana.document.write('input[type="button"],[type="submit"]{');
         ventana.document.write('font-size: 20px;');
         ventana.document.write('color: white;');
         ventana.document.write('background: black;');
         ventana.document.write('}');
-        ventana.document.write('table{width:100%; height:400px; text-align:center;border:black 3px solid;border-radius:7px;border-spacing: 0px;margin:0 auto;}input[type="button"]{border-style:solid;border-radius:6px;');
-        ventana.document.write('border-radius: 10px;border-spacing: 0px; border: black 5px solid;');
+        ventana.document.write('table{width:100%; height:400px; text-align:center;border:white 3px solid;border-radius:7px;border-spacing: 0px;margin:0 auto;}input[type="button"]{border-style:solid;border-radius:6px;');
+        ventana.document.write('border-radius: 10px;border-spacing: 0px; border: white 5px solid;');
         ventana.document.write('margin:0 auto;}');
         ventana.document.write('</style>');        
         ventana.document.write('<body>');
